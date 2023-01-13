@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="Css/Cart.css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+</head>
+<body>
+    
+ 
+    <div class="cartsection">
+    <div class="header" id="navbar">
+        
+        <div>
+        <ul>
+        <li><img src="Images/logo.png" alt="logo"></li>
+        </ul>
+        </div>
+        <div class="wrap">
+            <div class="search">
+               <input type="text" class="searchTerm" placeholder="What are you looking for?">
+               <button type="submit" class="searchButton">
+                 <i class="fa fa-search"></i>
+              </button>
+            </div>
+         </div>
+            <div class="position">
+            <ul>
+              <li><a href = "index.html">Home</a></li>
+              <li><a href = "index.html#limited">Limited Time Sale</a></li>
+              <li><a href = "index.html">Promos</a></li>
+              <li><a href = "index.html#bestsellers">Best Sellers</a></li>
+              <li><a href = "index.html#newarrivals">New Arrivals</a></li>
+              <li><a href = "index.html#onsale">On Sale</a></li>
+            </ul>
+            </div>
+            <div class="logLogo">
+                <i class="fa fa-user"></i>
+            </div>
+            <div class="log">
+                <ul>
+                    <li><a href ="Login.html">Log in/Sign Up</a><br>
+                    <a href ="manageaccount.html">Manage Account</a></li>
+                </ul>
+            </div>
+            <div class="t"></div>
+            <div class="cart">
+              
+                <i class="fa fa-cart-plus"></i>
+            </div>
+            <div class="cartText">
+              <ul>
+                <li><a href="Cart.html">View Cart</a></li>
+              </ul>
+            </div>
+    </div>
+    <div id="cart">
+        <h2>Your Cart</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img src="Images/pocox3.png" alt="Product 1" width="100">
+                <p>Product 1</p>
+              </td>
+              <td>$10</td>
+              <td>
+                <input type="number" value="2" min="1">
+                <button>Update</button>
+              </td>
+              <td>$20</td>
+              <td>
+                <button>Remove</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="Images/reddragon.png" alt="Product 2" width="100">
+                <p>Product 2</p>
+              </td>
+              <td>$20</td>
+              <td>
+                <input type="number" value="1" min="1">
+                <button>Update</button>
+              </td>
+              <td>$20</td>
+              <td>
+                <button>Remove</button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3">Total</td>
+              <td>$40</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <div id="cart-actions">
+          <button id="checkout-button">Checkout</button>
+          <a href="Main.html" id="continue-shopping-link">Continue shopping</a>
+          <div id="promo-code-form">
+            <label for="promo-code">Have a promo code?</label>
+            <input type="text" id="promo-code">
+            <button>Apply</button>
+          </div>
+        </div>
+        <hr>
+        <div id="delivery-info">
+          <h3>Delivery and returns</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod mollis consectetur. Sed malesuada nunc in mauris dignissim, vel ultricies velit laoreet.</p>
+        </div>
+        <div id="help-options">
+          <h3>Need help?</h3>
+          <p>Contact us at <a href="mailto:help@example.com">help@example.com</a> or call 555-555-5555.</p>
+        </div>
+        <div id="payment-methods">
+          <h3>Payment methods</h3>
+          <ul>
+            <li>Visa</li>
+            <li>Mastercard</li>
+            <li>PayPal</li>
+            <li>Gcash</li>
+              </ul>
+                </div>
+    </div></div>
+    <footer>
+      <div class="fcontainer">
+        <div class="top">
+          <a href="allabout.html#about">About Us</a>
+          <a href="allabout.html#developer">Developers</a>
+          <a href="allabout.html#contacts">Contact Us</a>
+        </div>
+        <div class="center">
+          <h2>Newsletter</h2>
+          <p>Subscribe to get notified <br>
+about product launches, <br>
+special offers and news.</p>
+          <form>
+            <input type="email" placeholder="Email address">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="bottom">All rights reserved 2022</div>
+      </div>
+    </footer>
+
+
+
+
+
+
+    
+</body>
+
+</html>

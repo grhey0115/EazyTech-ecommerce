@@ -1,0 +1,488 @@
+/* Reset default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+  text-align: center;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  background-image: linear-gradient(to right, #74ebd5 , #ACB6E5);
+}
+
+/* Header styles */
+.header {
+  margin-top: 50px;
+  position: fixed; /* Make header stay at the top of the page */
+  width: 100%;
+  height: 50px;
+  background-color: #FFFFFF;
+  padding: 30px;
+  box-shadow: 0 0 6px black;
+  z-index: 100; /* Bring header to the front */
+}
+
+/* Header links styles */
+.header li {
+  display: inline; /* Display links horizontally */
+  padding-left: 1px;
+}
+
+.header li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  transition: .3s ease; /* Smooth transition effect on hover */
+}
+
+.header li a:hover {
+  color: royalblue;
+}
+
+/* Header logo styles */
+.header li img {
+  width: 80px;
+  float: left;
+  margin-top: -40px;
+}
+
+/* Search bar styles */
+.search {
+  position: relative;
+  display: flex;
+  width: 130%;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #4070f4;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: black;
+  font-family: 'Poppins';
+}
+
+.searchTerm:focus {
+  color: black;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #4070f4;
+  background: #4070f4;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Search bar container styles */
+.wrap {
+  position: absolute;
+  top: 40%;
+  left: 36.8%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+}
+
+/* Search result container styles */
+.position {
+  position: absolute;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+
+/* Navigation bar styles */
+.topnav {
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display:block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+}
+.log{
+float:right;
+margin-top: -82px;
+margin-right: 220px;
+}
+.log li{
+font-size: 3.5mm;
+
+}
+.logLogo{
+float:right;
+margin-top: -65px;
+margin-right: 350px;
+font-size: 32px;
+color: #4070f4;
+}
+.t{
+border-left:2px solid black;
+height: 100px;
+position: absolute;
+left:82%;
+margin-left:30px;
+top:5px
+}
+.cart{
+float:right;
+margin-top: -65px;
+margin-right: 11%;
+font-size: 32px;
+color: #4070f4;
+}
+.cartText{
+float: right;
+margin-right: 4%;
+margin-top: -68px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer .fcontainer {
+  display:inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+footer .top {
+  display: flex;
+  justify-content: center;
+}
+
+footer .top a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.2s;
+}
+
+footer .top a:hover {
+  color: royalblue;
+}
+
+footer .center {
+  margin: 20px 0;
+}
+
+footer .center p {
+  margin-bottom: 10px;
+}
+
+footer .center form {
+  display: flex;
+}
+
+footer .center input {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.2s;
+}
+
+footer .center input:focus {
+  background-color: #555;
+}
+
+footer .center button {
+  padding: 10px 20px;
+  border: none;
+  background-color: royalblue;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+footer .center button:hover {
+  background-color: blue;
+}
+
+footer .bottom {
+  margin-top: 20px;
+}
+
+
+
+.glassmorphism {
+  margin: 150px 250px 40px 250px;
+  background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+  background-size: cover;
+  background-blend-mode: screen;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 20px;
+}
+#warranty-section {
+  text-align: center;
+}
+
+#warranty-section h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#warranty-section h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px 0 10px;
+}
+
+#warranty-section p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0 0 20px;
+}
+
+#warranty-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#warranty-section li {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+  
+#technical-support-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#technical-support-section .column {
+  width: 45%;
+  padding: 20px;
+}
+
+#technical-support-section h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+#technical-support-section h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px 0 10px;
+}
+
+#technical-support-section p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0 0 20px;
+}
+
+#technical-support-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#technical-support-section li {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+#technical-support-section form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#technical-support-section label {
+  width: 100%;
+  font-size: 1.2em;
+  
+  margin-bottom: 5px;
+}
+
+#technical-support-section input[type="text"],
+#technical-support-section input[type="date"],
+#technical-support-section input[type="file"],
+#technical-support-section textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+#technical-support-section input[type="submit"] {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#technical-support-section input[type="submit"]:hover {
+  background-color: #003366;
+}
+
+#technical-support-section sup {
+  font-size: 0.8em;
+  color: red;
+  font-weight: bold;
+}
+
+#delivery-section {
+  height: 750px;
+  position: relative;
+  color: black;
+  text-align: center;
+}
+
+#delivery-section .map-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#delivery-section .map {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#delivery-section .content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
+#delivery-section h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#delivery-section p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0 0 20px;
+}
+
+#order-tracking-section {
+  text-align: center;
+}
+
+#order-tracking-section h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#order-tracking-section p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0 0 20px;
+}
+
+#order-tracking-section form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#order-tracking-section label {
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#order-tracking-section input[type="text"],
+#order-tracking-section input[type="email"] {
+  margin-left: 80px;
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+#order-tracking-section input[type="submit"] {
+  
+  width: 100%;
+  background-color: #003366;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#order-tracking-section input[type="submit"]:hover {
+  background-color: royalblue;
+}
